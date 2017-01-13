@@ -7,8 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>騰訊·大粵網·澳門 啟動儀式發佈會</title>
-    <meta name="msapplication-TileColor" content="#2da0da">
-    <meta name="theme-color" content="#db5945">
+    <meta name="msapplication-TileColor" content="#F44336">
+    <meta name="theme-color" content="#b32e8f">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
     <base href="<?php echo base_url();?>"/>
     <style>
@@ -228,7 +228,7 @@
             margin: auto;
             overflow: hidden;
             color: #fff;
-            text-align: center;
+            position: relative;
         }
 
         .title {
@@ -291,13 +291,12 @@
 
         footer {
             width: 100%;
-            max-width: 434px;
-            height: 30px;
+            height: 40px;
             background-color: #fff;
             background-image: url(avatar.png);
             background-repeat: no-repeat;
             text-align: center;
-            background-size: 5.3em;
+            background-size: 6.3em;
             background-position: 50% 50%;
             bottom: 0;
         }
@@ -343,6 +342,11 @@
             .main {
                 font-size: 12px;
                 width: 26em;
+                text-align: center;
+                margin: auto;
+                overflow: hidden;
+                color: #fff;
+                position: relative;
             }
 
             .info {
@@ -439,14 +443,14 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            background-size: auto 100%;
-            background-image: url("bg.jpg");
             background-repeat: no-repeat;
-            background: -webkit-linear-gradient(left top, #F44336, #9C27B0); /* Safari 5.1 - 6.0 */
-            background: -o-linear-gradient(bottom right, #F44336, #9C27B0); /* Opera 11.1 - 12.0 */
-            background: -moz-linear-gradient(bottom right, #F44336, #9C27B0); /* Firefox 3.6 - 15 */
+            background: -webkit-linear-gradient(left top, #F44336, #9C27B0);
+            background: -o-linear-gradient(bottom right, #F44336, #9C27B0);
+            background: -moz-linear-gradient(bottom right, #F44336, #9C27B0);
             background: linear-gradient(to bottom right, #F44336, #9C27B0);
         }
+
+
 
         .succeed {
             position: absolute;
@@ -495,10 +499,11 @@
         <img class="arrow"
              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjNweCIgaGVpZ2h0PSI5cHgiIHZpZXdCb3g9IjAgMCAyMyA5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IHNrZXRjaHRvb2wgNDEuMiAoMzUzOTcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPkVDRDgwRjIwLUVBQzctNDA4Qy04RjlELTUzNzYwMjM2M0FDMjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0yIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgICAgIDxnIGlkPSLmnIvlj4vlnIhf5pmu6YCa55So5oi3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTc2LjAwMDAwMCwgLTYyNi4wMDAwMDApIiBzdHJva2Utd2lkdGg9IjIuMzk5OTk5ODYiIHN0cm9rZT0iI0ZGRkZGRiI+CiAgICAgICAgICAgIDxwb2x5bGluZSBpZD0i566t5aS0IiBwb2ludHM9IjE3OCA2MzMgMTg3LjI0MjYyOCA2MjggMTk3IDYzMyI+PC9wb2x5bGluZT4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
              alt="">
-        <footer>
 
-        </footer>
     </div>
+    <footer>
+
+    </footer>
     <div id="page2" class="page2">
         <div class="contain">
             <section class="title">
@@ -550,7 +555,7 @@
         });
         $("footer").css({
             position: "absolute",
-            top: (d_height * 2 - 30) + "px"
+            top: (d_height * 2 - 40) + "px"
         });
     });
 
